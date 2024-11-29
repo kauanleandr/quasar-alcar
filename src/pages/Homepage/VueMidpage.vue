@@ -5,7 +5,7 @@
     <div class="container">
       <div class="number-card">
         <h3>+ de 13.000 m²</h3>
-        <p>em obras executadas</p>
+        <p>obras executadas</p>
       </div>
       <div class="number-card">
         <h3>+ de 100</h3>
@@ -41,8 +41,6 @@ export default {
 };
 </script>
 <style>
-/*  */
-
 /* Estilo para "Diferenciais" */
 .diferenciais {
   background-color: #ffffff;
@@ -90,24 +88,10 @@ export default {
   margin-right: 15px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-  .diferenciais h2,
-  .qmsomos h2 {
-    font-size: 2rem;
-  }
-
-  .diferenciais ul li,
-  .qmsomos p {
-    font-size: 1rem;
-  }
-}
-/*  */
-
 /* em obras executadas / obras entregues CSS */
 .number-card {
   display: inline-block;
-  width: 40%;
+  width: 42%;
   margin: 1rem;
   background: white;
   border: 1px solid #ddd;
@@ -118,16 +102,16 @@ export default {
 }
 
 .number-card h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #23bacf;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .numbers {
   display: grid; /* Usando Grid Layout */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
   gap: 20px; /* Espaçamento entre itens */
   background: #f4f4f4;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 .number-card:hover {
@@ -135,4 +119,53 @@ export default {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /* FIM / em obras executadas / obras entregues CSS */
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .diferenciais {
+    margin-top: 0px;
+  }
+  .diferenciais h2,
+  .qmsomos h2 {
+    font-size: 2rem;
+  }
+
+  .diferenciais ul li,
+  .qmsomos p {
+    font-size: 1rem;
+  }
+  .number-card {
+    display: inline-block;
+    width: 42%;
+    margin: 1rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito suave */
+  }
+
+  .number-card h3 {
+    font-size: 1rem;
+    color: #23bacf;
+    margin-bottom: 0rem;
+  }
+  .numbers {
+    display: grid; /* Usando Grid Layout */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    ); /* Responsivo */
+    gap: 20px; /* Espaçamento entre itens */
+    background: #f4f4f4;
+    padding: 0rem;
+    text-align: center;
+  }
+  .number-card:hover {
+    transform: translateY(-5px); /* Elevação ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+/*  */
 </style>
