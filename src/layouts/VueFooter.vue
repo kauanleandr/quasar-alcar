@@ -4,7 +4,11 @@
       <div class="rodape-div-1">
         <div class="rodape-div-1-coluna">
           <span><b>ENDEREÇO</b></span>
-          <p>ED. TROPICAL CENTER, AV. GOV. MAGALHES BARATA 695 SALA 103</p>
+          <p>
+            <a href="https://maps.app.goo.gl/VturGPjQz9UuHDL99" target="_black"
+              >ED. TROPICAL CENTER, AV. GOV. MAGALHES BARATA 695 SALA 103</a
+            >
+          </p>
         </div>
       </div>
 

@@ -4,6 +4,18 @@ const routes = [
     component: () => import("src/pages/Homepage/Home.vue"),
     children: [{ path: "", component: () => import("pages/IndexPage.vue") }],
   },
+  {
+    path: "/Residencial",
+    component: () => import("src/pages/Homepage/circulos/Residencial.vue"),
+  },
+  {
+    path: "/Comercial",
+    component: () => import("src/pages/Homepage/circulos/Comercial.vue"),
+  },
+  {
+    path: "/Industrial",
+    component: () => import("src/pages/Homepage/circulos/Industrial.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

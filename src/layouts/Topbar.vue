@@ -1,15 +1,34 @@
 <template>
   <div class="topbar">
-    <div class="logo"><img src="/src/assets/logo.png" alt="logo" /></div>
+    <a href="/">
+      <div class="logo"><img src="/src/assets/logo.png" alt="logo" /></div>
+    </a>
     <button class="menu-toggle" @click="toggleMenu">☰</button>
     <nav class="menu" :class="{ 'menu-open': isMenuOpen }">
-      <a href="/">Home</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#serviços">Serviços</a>
+      <a href="/" :class="{ active: isActive('/') }" @click="setActive('/')"
+        >Home</a
+      >
+      <a
+        href="#sobre"
+        :class="{ active: isActive('#sobre') }"
+        @click="setActive('#sobre')"
+        >Sobre</a
+      >
+      <a
+        href="#serviços"
+        :class="{ active: isActive('#serviços') }"
+        @click="setActive('#serviços')"
+        >Serviços</a
+      >
       <a href="/public/assets/portfolioAlçar2022.pdf" target="_blank"
         >Portfólio</a
       >
-      <a href="#contato">Contato</a>
+      <a
+        href="#contato"
+        :class="{ active: isActive('#contato') }"
+        @click="setActive('#contato')"
+        >Contato</a
+      >
     </nav>
   </div>
 </template>
@@ -20,17 +39,36 @@ export default {
   data() {
     return {
       isMenuOpen: false, // Controla o estado do menu para telas menores
+      activeLink: "/", // Link ativo padrão (início na página inicial)
     };
   },
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen; // Alterna entre abrir/fechar o menu
     },
+    isActive(href) {
+      // Verifica se o href corresponde ao link ativo
+      return this.activeLink === href;
+    },
+    setActive(href) {
+      // Atualiza o link ativo
+      this.activeLink = href;
+    },
+  },
+  mounted() {
+    // Define o link ativo com base na URL atual ao carregar a página
+    this.activeLink = window.location.hash || window.location.pathname;
   },
 };
 </script>
 
 <style scoped>
+.menu a.active {
+  color: #23bacf; /* Cor para o link ativo */
+  font-weight: bold; /* Negrito para destacar */
+  text-decoration: underline; /* Opcional */
+}
+
 .topbar {
   display: flex;
   justify-content: space-around;

@@ -1,4 +1,5 @@
 <template>
+  <Topbar msg="topbar da pagina" />
   <div
     class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center"
   >
@@ -18,10 +19,15 @@
       />
     </div>
   </div>
+  <VueFooter msg="footer da pagina" />
 </template>
 
 <script setup>
+import Topbar from "src/layouts/Topbar.vue";
+import VueFooter from "src/layouts/VueFooter.vue";
 defineOptions({
   name: "ErrorNotFound",
+  Topbar,
+  VueFooter,
 });
 </script>

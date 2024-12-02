@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tudo">
     <Topbar msg="topbar da pagina" />
     <VueCarousel msg="Carousel da pagina" />
     <VueCirculos msg="Circulos com os projetos concluidos" />
@@ -26,4 +26,8 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+.tudo {
+  background-color: #f4f4f4;
+}
+</style>
