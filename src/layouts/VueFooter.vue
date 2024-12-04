@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 .rodape {
-  background-color: #5c6770;
+  background-color: #3e4d54;
   color: white;
   width: 100%;
   font-size: 14px;

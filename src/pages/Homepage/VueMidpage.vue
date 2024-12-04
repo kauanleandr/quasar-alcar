@@ -5,11 +5,15 @@
     <div class="container">
       <div class="number-card">
         <h3>+ de 13.000 m²</h3>
-        <p>obras executadas</p>
+        <div class="p-text">
+          <p>OBRAS EXECUTADAS</p>
+        </div>
       </div>
       <div class="number-card">
         <h3>+ de 100</h3>
-        <p>obras entregues</p>
+        <div class="p-text">
+          <p>OBRAS ENTREGUES</p>
+        </div>
       </div>
     </div>
   </section>
@@ -44,13 +48,14 @@ export default {
 /* Estilo para "Diferenciais" */
 .diferenciais {
   background-color: #ffffff;
-  padding: 60px 20px;
+  padding: 20px 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin: -10px auto;
 }
 
 .diferenciais h2 {
+  font-family: serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #000000;
@@ -100,11 +105,15 @@ export default {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito suave */
 }
-
 .number-card h3 {
+  font-weight: bold;
   font-size: 2.5rem;
   color: #23bacf;
   margin-bottom: 1rem;
+}
+.p-text {
+  font-size: 20px;
+  font-weight: bold;
 }
 .numbers {
   display: grid; /* Usando Grid Layout */
@@ -145,7 +154,9 @@ export default {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito suave */
   }
-
+  .p-text {
+    font-size: 0.7rem;
+  }
   .number-card h3 {
     font-size: 1rem;
     color: #23bacf;

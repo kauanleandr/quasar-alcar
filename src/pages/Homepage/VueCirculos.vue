@@ -39,7 +39,6 @@ export default {
 
 <style scoped>
 /* circulos */
-
 .circulos-exemplos {
   text-align: center;
   margin: 40px 0;
@@ -76,8 +75,9 @@ export default {
 }
 
 .circulo span {
+  font-family: Serif;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -124,8 +124,8 @@ export default {
   }
 
   .circulo img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 
   .circulo span {

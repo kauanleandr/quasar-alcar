@@ -6,28 +6,28 @@
     <button class="menu-toggle" @click="toggleMenu">☰</button>
     <nav class="menu" :class="{ 'menu-open': isMenuOpen }">
       <a href="/" :class="{ active: isActive('/') }" @click="setActive('/')"
-        >Home</a
+        >HOME</a
       >
       <a
         href="#sobre"
         :class="{ active: isActive('#sobre') }"
         @click="setActive('#sobre')"
-        >Sobre</a
+        >SOBRE</a
       >
       <a
         href="#serviços"
         :class="{ active: isActive('#serviços') }"
         @click="setActive('#serviços')"
-        >Serviços</a
+        >SERVIÇOS</a
       >
       <a href="/public/assets/portfolioAlçar2022.pdf" target="_blank"
-        >Portfólio</a
+        >PORTFÓLIO</a
       >
       <a
         href="#contato"
         :class="{ active: isActive('#contato') }"
         @click="setActive('#contato')"
-        >Contato</a
+        >CONTATO</a
       >
     </nav>
   </div>
@@ -89,6 +89,7 @@ export default {
 }
 
 .menu a {
+  font-weight: bold;
   margin-left: 2rem;
   text-decoration: none;
   color: #3e4d54;
@@ -117,7 +118,7 @@ export default {
     display: none; /* Esconde o menu padrão */
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 75px;
     right: 0;
     background-color: #f2f2f2;
     width: 100%;
