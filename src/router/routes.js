@@ -16,6 +16,14 @@ const routes = [
     path: "/Industrial",
     component: () => import("src/pages/Homepage/circulos/Industrial.vue"),
   },
+  {
+    path: "/Servicos",
+    component: () => import("src/pages/Serviços/Serviços.vue"),
+  },
+  {
+    path: "/Sobre",
+    component: () => import("src/pages/Sobre/Sobre.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

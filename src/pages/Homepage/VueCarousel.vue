@@ -72,12 +72,16 @@ export default {
   background-color: rgba(0, 0, 0, 0.3)
 
 .custom-carousel
-  height: 500px // Ajuste o tamanho do carrossel
+  height: 800px // Ajuste o tamanho do carrossel
+
+@media (max-width: 768px)
+  .custom-carousel
+    height: 500px
 </style>
 
 <style>
 .TextCarousel {
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
 }
 
