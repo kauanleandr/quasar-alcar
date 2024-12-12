@@ -24,6 +24,10 @@ const routes = [
     path: "/Sobre",
     component: () => import("src/pages/Sobre/Sobre.vue"),
   },
+  {
+    path: "/Contato",
+    component: () => import("src/pages/Contato/Contato.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

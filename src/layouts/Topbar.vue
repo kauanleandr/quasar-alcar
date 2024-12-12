@@ -11,7 +11,7 @@
       <a href="/public/assets/portfolioAlçar2022.pdf" target="_blank"
         >PORTFÓLIO</a
       >
-      <a href="#contato">CONTATO</a>
+      <a href="/#/Contato">CONTATO</a>
     </nav>
   </div>
 </template>

@@ -3,10 +3,11 @@
     <div class="rodape-div">
       <div class="rodape-div-1">
         <div class="rodape-div-1-coluna">
-          <span><b>ENDEREÇO</b></span>
+          <span> <b>ENDEREÇO</b></span>
           <p>
-            <a href="https://maps.app.goo.gl/VturGPjQz9UuHDL99" target="_black"
-              >ED. TROPICAL CENTER, AV. GOV. MAGALHES BARATA 695 SALA 103</a
+            <a href="https://maps.app.goo.gl/VturGPjQz9UuHDL99" target="_black">
+              ED. TROPICAL CENTER, AV. GOV. MAGALHES BARATA 695 SALA 103,
+              BELÉM-PA</a
             >
           </p>
         </div>
@@ -16,18 +17,29 @@
         <div class="rodape-div-2-coluna">
           <span><b>Contatos</b></span>
           <p>
-            <a href="https://www.instagram.com/alcarengenharia/" target="_blank"
-              >@alcarengenharia</a
+            <a
+              href="https://www.instagram.com/alcarengenharia/"
+              target="_blank"
+            >
+              <img class="icone" src="/src/assets/insta_icon.png" />
+              @alcarengenharia</a
             >
           </p>
           <p>
             <a
               href="https://api.whatsapp.com/send/?phone=5591987377403&text&type=phone_number&app_absent=0"
               target="_blank"
-              >(91) 98737-7403</a
+            >
+              <img class="icone" src="/src/assets/telefone.png" />
+              (91) 98737-7403</a
             >
           </p>
-          <p>(91) 98242-2476</p>
+          <!-- <p>
+            <a href="" target="_blank">
+              <img class="icone" src="/src/assets/telefone.png" />
+              (91) 98242-2476
+            </a>
+          </p> -->
         </div>
       </div>
 
@@ -35,12 +47,13 @@
         <div class="rodape-div-3-coluna">
           <span><b>Links</b></span>
           <p><a href="#sobre">Sobre</a></p>
-          <p><a href="#serviços">Serviços</a></p>
+          <p><a href="#servicos">Serviços</a></p>
           <p><a href="/portfolioAlçar2022.pdf" target="_blank">Portfólio</a></p>
         </div>
       </div>
     </div>
     <p class="rodape-direitos">
+      <img class="icone" src="/src/assets/github.png" />
       <a href="https://github.com/kauanleandr" target="_blank">Kauanleandr</a> ©
       2023 – Todos os Direitos Reservados.
     </p>
@@ -55,6 +68,13 @@ export default {
 </script>
 
 <style scoped>
+.icone {
+  width: 20px; /* Largura da imagem */
+  height: 20px; /* Altura da imagem */
+  margin-right: 8px; /* Espaço entre a imagem e o texto */
+  vertical-align: middle; /* Alinha a imagem ao centro do texto */
+}
+
 .rodape {
   background-color: #3e4d54;
   color: white;
