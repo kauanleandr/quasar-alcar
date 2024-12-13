@@ -14,7 +14,7 @@
     >
       <q-carousel-slide
         :name="1"
-        img-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1H4PZrSs0p0fQXR6f-IUvezMdjcgxrFjCkg&s"
+        img-src="https://c4.wallpaperflare.com/wallpaper/65/228/55/computer-construction-funny-humor-wallpaper-preview.jpg"
       >
         <div class="custom-caption">
           <div class="TextCarousel">
@@ -25,7 +25,7 @@
 
       <q-carousel-slide
         :name="2"
-        img-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMykdRsXvDkem2y4ZtpIH4d8w_z-OXUpe-Aj4vyjS1fohqHHL8Nf4DRZVN4s7aRyOxktE&usqp=CAU"
+        img-src="https://c0.wallpaperflare.com/preview/677/43/705/construction-site-building-building-construction-working.jpg"
       >
         <div class="custom-caption">
           <div class="TextCarousel">REFORMAS E <br />CONSTRUÇÕES</div>
@@ -34,7 +34,7 @@
 
       <q-carousel-slide
         :name="3"
-        img-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmJWuNmCa_IX2aMWJSOEFSByEUo4OBSbp-ocEYHRar9zzeHnWHJ8h5ej0KE1TzYn45CdQ&usqp=CAU"
+        img-src="https://c1.wallpaperflare.com/preview/1015/906/422/drawing-architecture-plans-architectural-drawing.jpg"
       >
         <div class="custom-caption">
           <div class="TextCarousel">
