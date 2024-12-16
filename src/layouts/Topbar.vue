@@ -8,9 +8,7 @@
       <a href="/">HOME</a>
       <a href="/#/Sobre">SOBRE</a>
       <a href="/#/Servicos">SERVIÇOS</a>
-      <a href="/public/assets/portfolioAlçar2022.pdf" target="_blank"
-        >PORTFÓLIO</a
-      >
+      <a href="/#/pdf" target="_blank">PORTFÓLIO</a>
       <a href="/#/Contato">CONTATO</a>
     </nav>
   </div>

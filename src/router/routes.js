@@ -35,6 +35,10 @@ const routes = [
     path: "/:catchAll(.*)*",
     component: () => import("pages/ErrorNotFound.vue"),
   },
+  {
+    path: "/pdf",
+    redirect: () => (window.location.href = "/public/portfolioAlçar2022.pdf"),
+  },
 ];
 
 export default routes;
