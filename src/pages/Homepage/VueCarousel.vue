@@ -34,7 +34,7 @@
 
       <q-carousel-slide
         :name="3"
-        img-src="https://c1.wallpaperflare.com/preview/1015/906/422/drawing-architecture-plans-architectural-drawing.jpg"
+        img-src="https://xn--alarengenharia-hjb.my.canva.site/alcarengenharia/media/b4bbcb34cd7b5bd86127cdadb030594b.jpg"
       >
         <div class="custom-caption">
           <div class="TextCarousel">
