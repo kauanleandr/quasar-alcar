@@ -1,11 +1,11 @@
 <template>
+  <Topbar msg="topbar da pagina" />
   <div class="tudo">
-    <Topbar msg="topbar da pagina" />
     <VueCarousel msg="Carousel da pagina" />
     <VueCirculos msg="Circulos com os projetos concluidos" />
     <VueMidpage msg="parte do meio da pagina" />
-    <VueFooter msg="footer da pagina" />
   </div>
+  <VueFooter msg="footer da pagina" />
 </template>
 
 <script>

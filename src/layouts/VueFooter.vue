@@ -124,7 +124,7 @@ export default {
   width: 100%;
   background-color: black;
   padding: 10px;
-  margin: 0px;
+  color: white;
   text-align: center;
 }
 

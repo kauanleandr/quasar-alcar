@@ -9,3 +9,15 @@ defineOptions({
   name: "IndexPage",
 });
 </script>
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Garantir que o body ocupe a altura total da tela */
+}
+
+main {
+  flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+}
+</style>
