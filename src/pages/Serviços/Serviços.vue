@@ -46,8 +46,9 @@ export default {
 }
 
 .diferenciais h2 {
+  margin-top: 105px;
   font-family: serif;
-  font-size: 2.5rem;
+  font-size: 30px;
   font-weight: bold;
   color: #000000;
   text-align: center;
@@ -85,7 +86,7 @@ export default {
 }
 @media (max-width: 768px) {
   .diferenciais h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .diferenciais ul li {
     font-size: 15px;

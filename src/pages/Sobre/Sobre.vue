@@ -56,10 +56,14 @@ export default {
 }
 
 .content h1 {
-  font-size: 2.5rem;
+  font-family: serif;
   font-weight: bold;
-  margin-bottom: 1.5rem;
-  color: #333;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .content p {

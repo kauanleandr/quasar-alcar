@@ -136,7 +136,7 @@ export default {
   }
   .diferenciais h2,
   .qmsomos h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .diferenciais ul li,

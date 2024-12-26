@@ -53,6 +53,17 @@ export default {
 };
 </script>
 <style>
+h2 {
+  font-family: serif;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 110px;
+}
+
 ul li::before {
   content: "✔";
   color: #23bacf;

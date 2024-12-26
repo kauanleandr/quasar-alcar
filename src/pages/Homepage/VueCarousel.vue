@@ -12,10 +12,7 @@
       @mouseleave="autoplay = true"
       class="custom-carousel"
     >
-      <q-carousel-slide
-        :name="1"
-        img-src="https://c4.wallpaperflare.com/wallpaper/65/228/55/computer-construction-funny-humor-wallpaper-preview.jpg"
-      >
+      <q-carousel-slide :name="1" img-src="/src/assets/3.jpg">
         <div class="custom-caption">
           <div class="TextCarousel">
             <a>OBRAS EM<br />PRODUÇÃO</a>
@@ -23,19 +20,13 @@
         </div>
       </q-carousel-slide>
 
-      <q-carousel-slide
-        :name="2"
-        img-src="https://c0.wallpaperflare.com/preview/677/43/705/construction-site-building-building-construction-working.jpg"
-      >
+      <q-carousel-slide :name="2" img-src="/src/assets/2.png">
         <div class="custom-caption">
           <div class="TextCarousel">REFORMAS E <br />CONSTRUÇÕES</div>
         </div>
       </q-carousel-slide>
 
-      <q-carousel-slide
-        :name="3"
-        img-src="https://xn--alarengenharia-hjb.my.canva.site/alcarengenharia/media/b4bbcb34cd7b5bd86127cdadb030594b.jpg"
-      >
+      <q-carousel-slide :name="3" img-src="/src/assets/1.jpg">
         <div class="custom-caption">
           <div class="TextCarousel">
             SOLUÇÕES DE<br />
